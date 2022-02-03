@@ -35,12 +35,12 @@ a {
 }
 
 .bg-1 {
-    background-color: #ffffff; /* White */
+    background-color: rgb(214, 202, 232); /* background */
     color: #555555;
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
+    background-color:#3FD12E; /* Projects */
     color: #ffffff;
 }
 
@@ -54,12 +54,12 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
+    background-color: rgb(98, 70, 140); /* About me */
     color: #ffffff;
 }
 
 .bg-4 {
-    background-color: #343a40; /* Dark Gray */
+    background-color: rgb(19, 4, 41); /* Bottom */
     color: #fff;
 }
 
@@ -80,4 +80,8 @@ a {
 
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
+}
+
+.bg-dark {
+    background-color: rgb(98, 70, 140) !important;
 }
