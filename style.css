@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    font: 20px Montserrat, sans-serif;
+    font-family: 20px 'Caveat', cursive;
     line-height: 1.8;
     color: #f5f6f7;
 }
