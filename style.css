@@ -1,6 +1,18 @@
-.main{
+.primary{
     border-style:dotted;
 }
-.mainsecond{
+.primaryside{
     border-style:dotted;
+    padding:left;
+    position:relative;
+    width:100%;
+}
+
+.name{
+    text-align:right;
+    display:flex;
+}
+
+main{
+
 }
