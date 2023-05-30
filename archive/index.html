@@ -1,122 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <title class="owner-name">#</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <title>Title</title>
+    </head>
+    <body>
+        <!-- HTML -->
 
-</head>
-
-<body>
-
-    <!-- Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand owner-name" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-        <!--<h1 class="margin">Name</h1>-->
-        <img src="img/Aron-Logo.png" class="img-fluid" alt="Logo" id="logo">
-    </div>
-
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center" id="projects">
-        <h3 class="margin">Projects</h3>
-        <p>What projects? I think someone stole my project mate. </p>
-        <div class="container">
-            <div class="row">
-
-                
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Tanks Plaground : The Anime</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">A fun and silly project that was created by Aron and James</p>
-                            <a href="projects/tanksplaygroundconcept.html" class="card-link">Click here to view</a>
-                        </div>
-                    </div>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled">Disabled</a>
                 </div>
-                
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Totally legit Bowser Jr. Boss fight</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">A choose your own adventure game gone extremely wild with jokes and memes.</p>
-                            <a href="projects/cyod.html" class="card-link">Click here to view</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Freedom Project : Animation</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">A project I did where I basically went over what is animation and how I will fix occuring issues around the animation world</p>
-                            <a href="projects/sep10-fp.html" class="card-link">Click here to view</a>
-                        </div>
-                    </div>
-                </div>
+              </div>
+            </div>
+        </nav>
 
+        <!-- Primary Page -->
+
+        <div class = "container-fluid primary">
+            <div class = "container-sm primaryside">
+              <img src = "img/avatar.png" alt = "Logo" width = 100px height = 100px>
+              <h2 class = "name">Aron Lin</h2>
             </div>
         </div>
-        </a>
-    </div>
-    
 
+        <div class = "container-fluid main">
 
-    <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
-        <h3 class="margin">About Me</h3><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <p>Haha yes.</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Haha yes.</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Haha yes.</p>
-            </div>
         </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
-        <a href="#" target="_blank" id="fork"><img src="img/fork.png"></a><br>
-        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
-    </footer>
-
-
-    <script src="script.js"></script>
-</body>
-
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
